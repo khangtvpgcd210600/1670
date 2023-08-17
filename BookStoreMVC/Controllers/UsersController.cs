@@ -62,7 +62,7 @@ namespace BookStoreMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> login(string na, string pa)
         {
-            SqlConnection conn1 = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ASUS\\Documents\\mydatabase.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn1 = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\phuck\\OneDrive\\Tài liệu\\BookWeb.mdf;Integrated Security=True;Connect Timeout=30");
             string sql;
             sql = "SELECT * FROM [User] where [Name] ='" + na + "' and  [Password] ='" + pa + "' ";
             SqlCommand comm = new SqlCommand(sql, conn1);

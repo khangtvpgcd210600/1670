@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\BookStoreMVC\\BookStoreMVC\\BookStoreMVC.csproj": {}
+    "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\BookStoreMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\BookStoreMVC\\BookStoreMVC\\BookStoreMVC.csproj": {
+    "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\BookStoreMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\BookStoreMVC\\BookStoreMVC\\BookStoreMVC.csproj",
+        "projectUniqueName": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\BookStoreMVC.csproj",
         "projectName": "BookStoreMVC",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\BookStoreMVC\\BookStoreMVC\\BookStoreMVC.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\BookStoreMVC\\BookStoreMVC\\obj\\",
+        "projectPath": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\BookStoreMVC.csproj",
+        "packagesPath": "C:\\Users\\phuck\\.nuget\\packages\\",
+        "outputPath": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
