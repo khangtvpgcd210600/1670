@@ -1,4 +1,5 @@
-﻿using BookStoreMVC.Models;
+﻿using BookStoreMVC.Data;
+using BookStoreMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,16 +7,16 @@ namespace BookStoreMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+		private readonly BookStoreMVCContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+		public HomeController(BookStoreMVCContext context)
+		{
+			_context = context;
+		}
 
-        public IActionResult Index()
+		public IActionResult Index()
         {
-            return View();
+            return View(_context.Book.ToList());
         }
 
         public IActionResult Privacy()
