@@ -1,4 +1,5 @@
 ﻿using BookStoreMVC.Data;
+using BookStoreMVC.Infrastructure;
 using BookStoreMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace BookStoreMVC.Controllers
 {
     public class CartController : Controller
     {
+        public Cart? Cart { get; set; }
         private readonly BookStoreMVCContext _context;
 
         public CartController(BookStoreMVCContext context)
@@ -13,71 +15,42 @@ namespace BookStoreMVC.Controllers
             _context = context;
         }
 
-        private Cart GetCart()
-        {
-            var cart = HttpContext.Session.Get<Cart>("Cart") ?? new Cart();
-            HttpContext.Session.Set("Cart", cart);
-            return cart;
-        }
 
-        [HttpGet]
-        public IActionResult Cart()
-        {
-            var cart = GetCart();
-
-            var totalPrice = cart.CartItems.Sum(item => item.Quantity * item.Book.Price);
-
-            var cartViewModel = new Cart
-            {
-                CartItems = cart.CartItems,
-                Price = totalPrice
-            };
-
-            return View(cartViewModel);
-        }
-
-        [HttpGet]
         public IActionResult AddToCart(int id)
         {
-            var book = _context.Book.SingleOrDefault(s => s.Id == id);
+            Book? book = _context.Book?.FirstOrDefault(b => b.Id == id);
             if (book != null)
             {
-                var cart = GetCart();
-                cart.AddCartItem(new CartItem { Book = book, Quantity = 1 }); // Use the AddCartItem method
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+                Cart.AddItem(book, 1);
+                HttpContext.Session.SetJson("cart", Cart);
             }
-            return RedirectToAction("Cart");
+            return View("Cart", Cart);
         }
 
-
-        [HttpPost]
-        public IActionResult UpdateCart(int id, int quantity)
+        public IActionResult UpdateCart(int id)
         {
-            var cart = GetCart();
-            var cartItem = cart.CartItems.FirstOrDefault(item => item.BookId == id);
-            if (cartItem != null)
+            Book? book = _context.Book?.FirstOrDefault(b => b.Id == id);
+            if (book != null)
             {
-                cartItem.Quantity = quantity;
-                HttpContext.Session.Set("Cart", cart);
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+                Cart.DecreaseItem(book, 1);
+                HttpContext.Session.SetJson("cart", Cart);
             }
-
-            return RedirectToAction("Cart");
+            return View("Cart", Cart);
         }
 
 
         public IActionResult RemoveCart(int id)
         {
-            var cart = HttpContext.Session.Get<Cart>("Cart");
-            if (cart != null)
+            Book? book = _context.Book?.FirstOrDefault(b => b.Id == id);
+            if (book != null)
             {
-                var cartItem = cart.CartItems.FirstOrDefault(item => item.BookId == id);
-                if (cartItem != null)
-                {
-                    cart.CartItems.Remove(cartItem);
-                    HttpContext.Session.Set("Cart", cart);
-                }
+                Cart = HttpContext.Session.GetJson<Cart>("cart");
+                Cart.RemoveLine(book);
+                HttpContext.Session.SetJson("cart", Cart);
             }
-
-            return RedirectToAction("Cart");
+            return View("Cart", Cart);
         }
 
         public IActionResult Checkout()

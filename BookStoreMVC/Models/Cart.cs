@@ -1,31 +1,59 @@
 namespace BookStoreMVC.Models
 {
-    public class CartItem
+    public class CartLine
     {
-        public int BookId { get; set; }
+        public int Id { get; set; }
         public int Quantity { get; set; }
         public Book Book { get; set; }
     }
 
     public class Cart
     {
-        public List<CartItem> CartItems { get; set; } = new List<CartItem>();
+        public List<CartLine> Lines { get; set; } = new List<CartLine>();
 
-        public double Price { get; set; }
-
-        public void AddCartItem(CartItem cartItem)
+        public void AddItem(Book book, int quantity)
         {
-            // Check if the same book is already in the cart
-            var existingCartItem = CartItems.FirstOrDefault(item => item.BookId == cartItem.BookId);
-
-            if (existingCartItem != null)
+            CartLine? line = Lines
+                .Where(b => b.Book.Id == book.Id).FirstOrDefault();
+            if (line == null)
             {
-                existingCartItem.Quantity += cartItem.Quantity;
+                Lines.Add(new CartLine
+                {
+                    Book = book,
+                    Quantity = quantity
+                });
             }
             else
             {
-                CartItems.Add(cartItem);
+                line.Quantity += quantity;
             }
         }
+
+        public void DecreaseItem(Book book, int quantity)
+        {
+            CartLine? line = Lines.FirstOrDefault(b => b.Book.Id == book.Id);
+            if (line != null)
+            {
+                if (line.Quantity - quantity <= 0)
+                {
+                    RemoveLine(book);
+                }
+                else
+                {
+                    line.Quantity -= quantity;
+                }
+            }
+        }
+
+
+        public void RemoveLine(Book book)
+        {
+            Lines.RemoveAll(l => l.Book.Id == book.Id);
+        }
+
+        public decimal ComputeTotalValue() =>
+            (decimal)Lines.Sum(e => e.Book.Price * e.Quantity);
+
+        public void Clear() => Lines.Clear();
     }
 }
