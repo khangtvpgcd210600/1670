@@ -1,6 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using BookStoreMVC.Data;
+﻿using BookStoreMVC.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BookStoreMVCContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BookStoreMVCContext") ?? throw new InvalidOperationException("Connection string 'BookStoreMVCContext' not found.")));
@@ -18,6 +17,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -27,6 +27,7 @@ app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Users}/{action=Login}/{id?}");
+    pattern: "{controller=Users}/{action=Login}/{id?}"
+    );
 
 app.Run();

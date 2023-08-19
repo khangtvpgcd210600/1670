@@ -496,3 +496,8 @@ D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\obj\Debug\ne
 D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\obj\Debug\net6.0\BookStoreMVC.pdb
 D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\obj\Debug\net6.0\BookStoreMVC.genruntimeconfig.cache
 D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\obj\Debug\net6.0\ref\BookStoreMVC.dll
+D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

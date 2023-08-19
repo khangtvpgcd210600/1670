@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UmYvZ9uQA6O6r0g7ZhNyKWYCWH9RHnub4W3Cnm7InwQ=",
+  "Hash": "9H75kDoyFFLVRDJAoMgDU9X7q9bb/JiHHfzCRBEfvJc=",
   "Source": "BookStoreMVC",
   "BasePath": "_content/BookStoreMVC",
   "Mode": "Default",
@@ -457,23 +457,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\TheWarOfSwords.jpg"
-    },
-    {
-      "Identity": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
-      "SourceId": "BookStoreMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\wwwroot\\",
-      "BasePath": "_content/BookStoreMVC",
-      "RelativePath": "images/wallpaperflare.com_wallpaper.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\wallpaperflare.com_wallpaper.jpg"
     },
     {
       "Identity": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\wwwroot\\js\\bootstrap.min.js",

@@ -101,10 +101,6 @@
       "PackagePath": "staticwebassets\\images\\TheWarOfSwords.jpg"
     },
     {
-      "Id": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
-      "PackagePath": "staticwebassets\\images\\wallpaperflare.com_wallpaper.jpg"
-    },
-    {
       "Id": "D:\\Summer 2023\\Application Development\\Assignment\\Code\\BookStoreMVC\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

@@ -9,161 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookStoreMVC
 build_property.RootNamespace = BookStoreMVC
-build_property.ProjectDir = D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\
+build_property.ProjectDir = d:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC
+build_property.MSBuildProjectDirectory = d:\Summer 2023\Application Development\Assignment\Code\BookStoreMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Create.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Delete.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Details.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Edit.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Index.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Create.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Delete.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Details.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Edit.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Index.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Create.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Delete.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Details.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Edit.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Index.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Genres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Home/Index.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Home/Privacy.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/OrderDetails/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/OrderDetails/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/OrderDetails/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/OrderDetails/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/OrderDetails/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Orders/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Orders/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Orders/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Orders/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Orders/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/Error.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Create.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Delete.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Details.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Edit.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Index.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Login.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/_ViewImports.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/_ViewStart.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/_Layout.cshtml]
+[d:/Summer 2023/Application Development/Assignment/Code/BookStoreMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dlv17ymtcv
