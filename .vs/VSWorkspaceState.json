@@ -1,7 +1,19 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Code2",
+    "\\Code2\\Areas",
+    "\\Code2\\Areas\\Identity",
+    "\\Code2\\Areas\\Identity\\Pages",
+    "\\Code2\\Areas\\Identity\\Pages\\Account",
+    "\\Code2\\Controllers",
+    "\\Code2\\Data",
+    "\\Code2\\Data\\Migrations",
+    "\\Code2\\Models",
+    "\\Code2\\Views",
+    "\\Code2\\Views\\Admin",
+    "\\Code2\\Views\\Shared"
   ],
-  "SelectedNode": "\\BookStoreMVC.sln",
+  "SelectedNode": "\\Code2\\Controllers\\AdminController.cs",
   "PreviewInSolutionExplorer": false
 }
